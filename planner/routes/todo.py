@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Path, HTTPException, status, Request, Depends
 from fastapi.templating import Jinja2Templates
-from model import Todo, TodoItem, TodoItems
+from models.model import Todo, TodoItem, TodoItems
 
 todo_router = APIRouter()
 
